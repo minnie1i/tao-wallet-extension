@@ -1,0 +1,16 @@
+{
+  "name": "Bittensor Wallet Chrome Extension",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "A Chrome extension for the Bittensor (TAO) Wallet.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Bittensor Wallet"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-eval'; object-src 'self'"
+  }
+}
